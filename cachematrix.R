@@ -1,12 +1,13 @@
 ## Aim of this script file is to cache inverse of matrix. Functions will check if inverse of matrix
-## is already calculated then it will return value from cache and if not then it will calculate inverse
+## is already calculated and if it is present in cache(value of matrix is not changed) then it will return value from cache and if not then it will calculate inverse
 ## of matrix. makeCacheMatrix will generate object matrix and cacheSolve will calculate inverse of matrix
 ## by checking the value in cache.
+## Assumtion - It is assumed that matrix taken for calcluation is always square invertible matrix.
 ## Author - Ankur Thakkar
 
 
 ## makeCacheMatrix function will generate special matrix. It will have list of functions, normally they are
-## getters and setters for matrix.
+## getters and setters for matrix. Input should be sqaure invertible matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
     IM <- NULL #initializing Inverse matrix to NULL
