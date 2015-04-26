@@ -2,7 +2,7 @@
 ## is already calculated and if it is present in cache(value of matrix is not changed) then it will return value from cache and if not then it will calculate inverse
 ## of matrix. makeCacheMatrix will generate object matrix and cacheSolve will calculate inverse of matrix
 ## by checking the value in cache.
-## Assumtion - It is assumed that matrix taken for calcluation is always square invertible matrix.
+## Assumption - It is assumed that the matrix taken for calcluation is always square invertible matrix.
 ## Author - Ankur Thakkar
 
 
